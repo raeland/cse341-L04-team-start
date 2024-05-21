@@ -1,3 +1,6 @@
+const db = require('../models')
+const Temple = db.temple
+
 module.exports = (mongoose) => {
   const Temple = mongoose.model(
     'temples',
