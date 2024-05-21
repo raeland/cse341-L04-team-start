@@ -9,3 +9,4 @@ db.url = dbConfig.url;
 db.temples = require('./temples.js')(mongoose);
 
 module.exports = db;
+

@@ -24,7 +24,7 @@
     },
     "/temples/api-docs": {
       "get": {
-        "description": "",
+        "description": "API KEY if needed: Ezl0961tEpx2UxTZ5v2uKFK91qdNAr5npRlMT1zLcE3Mg68Xwaj3N8Dyp1R8IvFenrVwHRllOUxF0Og00l0m9NcaYMtH6Bpgdv7N",
         "responses": {
           "default": {
             "description": ""
@@ -34,7 +34,7 @@
     },
     "/temples/": {
       "get": {
-        "description": "",
+        "description": "API KEY if needed: Ezl0961tEpx2UxTZ5v2uKFK91qdNAr5npRlMT1zLcE3Mg68Xwaj3N8Dyp1R8IvFenrVwHRllOUxF0Og00l0m9NcaYMtH6Bpgdv7N",
         "parameters": [
           {
             "name": "apiKey",

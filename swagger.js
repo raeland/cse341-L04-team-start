@@ -21,5 +21,5 @@ swaggerAutogen(outputFile, endpointFiles, doc)
 
 // run server after it gets generated 
 // swaggerAutogen{outputFile, endpointFiles, doc}.then(async () => {
-// await inport('./index.js')
+// await import('./index.js')
 // })
