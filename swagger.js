@@ -8,7 +8,8 @@ const doc = {
         title: 'My API',
         description: 'Temple API',
     },
-    host: 'localhost:8080',
+    //host: 'localhost:8080',
+    host: 'cse341-4bnb.onrender.com:1000',
     schemes:['http', 'https'],
 }
 
