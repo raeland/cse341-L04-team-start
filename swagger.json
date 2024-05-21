@@ -5,7 +5,7 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse341-4bnb.onrender.com:1000",
   "basePath": "/",
   "schemes": [
     "http",
@@ -22,19 +22,9 @@
         }
       }
     },
-    "/temples/api-docs": {
-      "get": {
-        "description": "API KEY if needed: Ezl0961tEpx2UxTZ5v2uKFK91qdNAr5npRlMT1zLcE3Mg68Xwaj3N8Dyp1R8IvFenrVwHRllOUxF0Og00l0m9NcaYMtH6Bpgdv7N",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
     "/temples/": {
       "get": {
-        "description": "API KEY if needed: Ezl0961tEpx2UxTZ5v2uKFK91qdNAr5npRlMT1zLcE3Mg68Xwaj3N8Dyp1R8IvFenrVwHRllOUxF0Og00l0m9NcaYMtH6Bpgdv7N",
+        "description": "",
         "parameters": [
           {
             "name": "apiKey",
