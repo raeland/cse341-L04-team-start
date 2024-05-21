@@ -1,8 +1,24 @@
 const swaggerAutogen = require('swagger-autogen')()
-
 const router = require('express').Router()
 const swaggerUi = require('swagger-ui-express')
-const swaggerDocument = require('./swagger.json')
+//const swaggerDocument = require('./swagger.json')
 
-router.use('/api-docs', swaggerUi.serve)
-router.get('/api-docs', swaggerUi.setup(swaggerDocument))
+const doc = {
+    info: {
+        title: 'My API',
+        description: 'Temple API',
+    },
+    host: 'localhost:8080',
+    schemes:['http', 'https'],
+}
+
+const outputFile = './swagger.json'
+const endpointFiles = ['./routes/index.js']
+
+//generate swagger.json
+swaggerAutogen(outputFile, endpointFiles, doc)
+
+// run server after it gets generated 
+// swaggerAutogen{outputFile, endpointFiles, doc}.then(async () => {
+// await inport('./index.js')
+// })
