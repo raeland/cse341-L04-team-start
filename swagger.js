@@ -9,7 +9,7 @@ const doc = {
         description: 'Temple API',
     },
     //host: 'localhost:8080',
-    host: 'cse341-4bnb.onrender.com:1000',
+    host: 'cse341-4bnb.onrender.com',
     schemes:['http', 'https'],
 }
 

@@ -15,6 +15,5 @@ module.exports = (mongoose) => {
       { timestamps: true }
     )
   )
-
   return Temple
 }

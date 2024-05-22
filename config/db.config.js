@@ -6,19 +6,20 @@ module.exports = {
   url: process.env.MONGODB_URI,
 }
 
-let _db
+let DB
 
 const initDb = (callback) => {
-    if (_db) {
+    if (DB) {
         console.log('Db is already initialized!')
-        return callback(null, _db)
+        return callback(null, DB)
     }
     MongoClient.connect(process.env.MONGODB_URI)
         .then((client) => {
-          _db = client;
-            callback(null, _db)
+          DB = client;
+            callback(null, DB)
         })
         .catch((err) => {
             callback(err)
         })
+        return initDb
 }
